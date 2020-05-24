@@ -1,0 +1,33 @@
+html * { /* ordem estrutural */
+  box-sizing: border-box; /* para organizar o tamanho do meu documento html */
+}
+
+.navbar.navbar-expand-md {
+  background-color: #ff006e;
+  opacity: 0.8;
+  display: inline-block;
+}
+
+.navbar-brand {
+  margin-left: 25px;
+}
+
+#navbarNav,
+nav-item {
+  margin: 0 10px;
+  font-size: large;
+  display: inline-block
+  }
+
+.nav-link {
+  color: black;
+}
+
+#navbarNav2,
+nav-item.nav-link {
+  background-color: white;
+  display: inline-block;
+  font-size: smaller;
+  font-style: italic;
+  
+}
